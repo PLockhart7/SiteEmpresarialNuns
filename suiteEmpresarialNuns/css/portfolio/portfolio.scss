@@ -1,0 +1,39 @@
+@import "../comun/header";
+@import "../comun/main";
+@import "../comun/footer";
+main {
+    h1 {
+        font-size: 2em;
+        margin: 50px 0px 20px;
+    }
+    .secciones {
+        button {
+            background-color: white;
+            color: orangered;
+            border: none;
+        }
+        .seleccionado {
+            background-color: gray;
+            color: white;
+        }
+    }
+    .row {
+        div {
+            margin-top: 20px;
+            img {
+                width: 100%;
+            }
+            h2 {
+                font-size: 1.2em;
+                margin-top: 10px;
+            }
+            p {
+                font-size: 1em;
+                margin-bottom: 10px;
+            }
+        }
+        
+    }
+}
+
+

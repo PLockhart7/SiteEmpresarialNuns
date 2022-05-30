@@ -1,0 +1,50 @@
+header {
+    background-color: slategray;
+    .header1 {
+        padding: 15px 0px;
+        .busca {
+            display: flex;
+            justify-content: flex-end;
+                button {
+                    border: none;
+                    background-color: ghostwhite;
+                    width: 35px;
+                    border-radius: 15%;
+            }
+        }
+    }
+    
+    .header2 {
+        background-color: darkgray;
+        border-top: 2px whitesmoke solid;
+        border-bottom: 2px whitesmoke solid;
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            img {
+                width: 65px;
+            }
+            .brand {
+                margin-left: 10px;
+
+                h1 {
+                    font-size: 1.5em;
+                }
+                p {
+                    font-size: 0.8em;
+                }
+            }
+        }
+        .navbar-collapse {
+            justify-content: flex-end;
+            font-weight: bold;
+
+            .active {
+                color: red !important;
+            }
+        }
+    }
+}
+
+
+

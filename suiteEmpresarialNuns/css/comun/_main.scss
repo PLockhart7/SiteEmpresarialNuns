@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+}
+
+main {
+    flex: 1 1 auto;
+    margin-bottom: 50px;
+    .selection {
+        padding: 20px;
+        .container {
+            display: flex;
+
+            div {
+                color: white;
+                border: none;
+                background-color: orangered;
+                border-radius: 4px;
+                padding: 5px 5px;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+    .container {
+        background-color:white;
+    }
+}

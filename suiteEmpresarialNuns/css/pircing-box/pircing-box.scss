@@ -1,0 +1,76 @@
+@import "../comun/header";
+@import "../comun/main";
+@import "../comun/footer";
+main {
+    .row {
+        padding-bottom: 50px;
+    }
+    .oferta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.1em;
+        margin-top: 40px;
+        text-align: center;
+
+        * {
+            margin: 0;
+            max-width: 300px;
+        }
+        h1 {
+            font-size: 1.8em;
+            font-weight: 150;
+            width: 100%;
+            background-color: lightgray;
+            padding-top: 30px;
+            padding-bottom: 10px;
+            span {
+                font-weight: bold;
+            }
+        }
+        h2 {
+            font-size: 1em;
+            color: orangered;
+            background-color: black;
+            width: 100%;
+            padding: 25px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            width: 100%;
+            li {
+                padding: 10px;
+                border-top: 2px lightgray solid;
+                border-left: 2px lightgray solid;
+                border-right: 2px lightgray solid;
+                border-bottom: 2px lightgray solid;
+            }
+        }
+        div {
+            width: 100%;
+            background-color: lightgray;
+            padding: 25px ;
+            border-top: 2px lightgray solid;
+            border-left: 2px lightgray solid;
+            border-right: 2px lightgray solid;
+            border-bottom: 2px lightgray solid;
+            button {
+                color: #fff;
+                border: none;
+                background-color: orangered;
+                border-radius: 5px;
+                padding: 7px 25px;
+            }
+        }
+    }
+    .especial {
+        h1 {
+            color: white;
+            background-color: orangered;
+
+        }
+    }
+}
+
+

@@ -1,0 +1,206 @@
+header {
+  background-color: slategray;
+}
+header .header1 {
+  padding: 15px 0px;
+}
+header .header1 .busca {
+  display: flex;
+  justify-content: flex-end;
+}
+header .header1 .busca button {
+  border: none;
+  background-color: ghostwhite;
+  width: 35px;
+  border-radius: 15%;
+}
+header .header2 {
+  background-color: darkgray;
+  border-top: 2px whitesmoke solid;
+  border-bottom: 2px whitesmoke solid;
+}
+header .header2 .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+header .header2 .navbar-brand img {
+  width: 65px;
+}
+header .header2 .navbar-brand .brand {
+  margin-left: 10px;
+}
+header .header2 .navbar-brand .brand h1 {
+  font-size: 1.5em;
+}
+header .header2 .navbar-brand .brand p {
+  font-size: 0.8em;
+}
+header .header2 .navbar-collapse {
+  justify-content: flex-end;
+  font-weight: bold;
+}
+header .header2 .navbar-collapse .active {
+  color: red !important;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+}
+
+main {
+  flex: 1 1 auto;
+  margin-bottom: 50px;
+}
+main .selection {
+  padding: 20px;
+}
+main .selection .container {
+  display: flex;
+}
+main .selection .container div {
+  color: white;
+  border: none;
+  background-color: orangered;
+  border-radius: 4px;
+  padding: 5px 5px;
+}
+main .selection .container div a {
+  text-decoration: none;
+  color: white;
+}
+main .container {
+  background-color: white;
+}
+
+footer {
+  flex: 0 1 auto;
+  background-color: slategray;
+  font-size: 0.7em;
+  color: white;
+}
+footer .footer1 {
+  padding: 30px 0px;
+}
+footer .footer1 .row div {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer1 .row div h1 {
+  font-size: 1.8em;
+  color: black;
+}
+footer .footer1 .row div h2 {
+  font-size: 1.2em;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+footer .footer1 .row div p {
+  color: white;
+  font-size: 1.2em;
+}
+footer .footer1 .row div form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 280px;
+}
+footer .footer1 .row div form input {
+  flex: 1 1 auto;
+}
+footer .footer1 .row div form button {
+  color: white;
+  border: none;
+  height: 1.4rem;
+  background-color: orangered;
+  border-radius: 10%;
+  padding: 0px 5px;
+}
+footer .footer2 {
+  background-color: darkgray;
+  padding: 10px 0px;
+}
+footer .footer2 p {
+  margin: 0;
+  font-size: 1.2em;
+}
+footer .footer2 .redes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5em;
+}
+footer .footer2 .redes a {
+  margin-left: 10px;
+  color: whitesmoke;
+  font-size: 1.2em;
+}
+
+main .row {
+  padding-bottom: 50px;
+}
+main .oferta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1em;
+  margin-top: 40px;
+  text-align: center;
+}
+main .oferta * {
+  margin: 0;
+  max-width: 300px;
+}
+main .oferta h1 {
+  font-size: 1.8em;
+  font-weight: 150;
+  width: 100%;
+  background-color: lightgray;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+main .oferta h1 span {
+  font-weight: bold;
+}
+main .oferta h2 {
+  font-size: 1em;
+  color: orangered;
+  background-color: black;
+  width: 100%;
+  padding: 25px;
+}
+main .oferta ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+main .oferta ul li {
+  padding: 10px;
+  border-top: 2px lightgray solid;
+  border-left: 2px lightgray solid;
+  border-right: 2px lightgray solid;
+  border-bottom: 2px lightgray solid;
+}
+main .oferta div {
+  width: 100%;
+  background-color: lightgray;
+  padding: 25px;
+  border-top: 2px lightgray solid;
+  border-left: 2px lightgray solid;
+  border-right: 2px lightgray solid;
+  border-bottom: 2px lightgray solid;
+}
+main .oferta div button {
+  color: #fff;
+  border: none;
+  background-color: orangered;
+  border-radius: 5px;
+  padding: 7px 25px;
+}
+main .especial h1 {
+  color: white;
+  background-color: orangered;
+}
+
+/*# sourceMappingURL=pircing-box.css.map */
